@@ -1,0 +1,27 @@
+﻿/*Header*/
+#logo {
+    height: 30px;           /*taille et emplacement logo*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#banniere
+{
+    display:flex;
+    flex-direction: row;  
+}
+header a
+{
+    text-decoration:none;
+    color: black;
+    display:flex;                                   /*aligner éléments sur la droite*/
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*Section 1*/
+
+/*Section 2*/
+
+/*Section 3*/
+
+/*Footer*/
