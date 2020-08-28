@@ -1,21 +1,37 @@
 ﻿/*Header*/
 #logo {
-    height: 30px;           /*taille et emplacement logo*/
+    height: 40px;           /*taille et emplacement logo*/
     margin-top: 40px;
     margin-bottom: 40px;
 }
 #banniere
 {
-    display:flex;
-    flex-direction: row;  
+    display: flex; 
+    justify-content: space-between;
 }
-header a
+#menu 
 {
-    text-decoration:none;
-    color: black;
-    display:flex;                                   /*aligner éléments sur la droite*/
+    display: flex;
+    list-style-type: none;
     align-items: center;
-    justify-content: flex-end;
+    padding-right: 10px;
+}
+header a 
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+}
+#menu a:hover                       /*Liens au survol*/
+{
+    color: blue;
+    border-top: 2px blue solid;
+    padding-top: 40px;
+}
+#inscription
+{
+    color: blue;
+    font-weight: bolder;
 }
 
 /*Section 1*/
