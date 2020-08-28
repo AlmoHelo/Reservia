@@ -136,11 +136,42 @@ nav i                                       /*icones des filtres*/
 {
     color:#0065FC;
 }
-
-
-
-
+/*structure partie haute*/
+img                                                 /* a supprimer !!!!!!!!!!*/
+{
+    height: 50px;
+    width: 50px;
+}
 /*Section 1*/
+#section_one                               /*hébergement*/
+{
+    float: left;
+    width: 70%;
+    border: 1px solid #F2F2F2;
+    border-radius: 3%;
+    background-color: #F2F2F2;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article
+{
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 10px rgb(172,172,172);
+    width: 20%;
+    margin: auto;
+}
+#section_populaires
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid #F2F2F2;
+    border-radius: 3%;
+    background-color: #F2F2F2;
+}
 
 /*Section 2*/
 
