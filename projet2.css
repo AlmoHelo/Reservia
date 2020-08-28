@@ -1,6 +1,15 @@
-﻿/*Header*/
+﻿@font-face
+{
+    font-family:"Raleway";                                          /*mise en place de la police*/
+        src:url("police/Raleway-Medium.ttf");
+}
+*
+{
+    font-family: 'Raleway','Times New Roman', Times, serif;
+}
+/*Header*/
 #logo {
-    height: 40px;           /*taille et emplacement logo*/
+    height: 60px;           /*taille et emplacement logo*/
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -14,25 +23,120 @@
     display: flex;
     list-style-type: none;
     align-items: center;
-    padding-right: 10px;
 }
-header a 
+header a                                    /*écriture des liens du menu*/
 {
     text-decoration: none;
     color: black;
-    padding-right: 25px;
+    font-size: 100%;
+    padding: 0 25px;
 }
-#menu a:hover                       /*Liens au survol*/
+#menu a:hover                                /*Liens au survol*/ 
 {
-    color: blue;
-    border-top: 2px blue solid;
-    padding-top: 40px;
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 45px;
 }
-#inscription
+#inscription 
 {
-    color: blue;
+    color: #0065FC;
     font-weight: bolder;
 }
+h1                                          /*titre principal*/
+{
+    font-size: 170%;
+    font-weight: bold;
+}
+#titre p                                    
+{
+    font-size: 120%;
+}
+#recherche
+{
+    display: flex;
+}
+#recherche i                                                 /*modif de l'icone rechercher*/
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 0 0 20px;
+    background-color: #F2F2F2;
+    width: 3.8%;
+    height: 58px;
+}
+form
+{
+    display: flex;
+    width: auto;
+}
+#search                                                     /*modification de la barre de recherche*/
+{
+    border: 1px solid #F2F2F2;
+    height: 60px;
+    font-size: 160%;
+    font-weight: bold;  
+}
+#bouton                                                     /* modification du bouton rechercher*/
+{
+    border: 1px solid #0065FC;
+    border-radius: 0 20px 20px 0;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    font-size: 120%;
+    letter-spacing: 0.1em;
+}
+#filtres                                    /*filtres*/ 
+{
+    display: flex;
+    margin-top: 1%;
+    font-weight: bold;
+}
+nav 
+{
+    display: flex;
+    padding-left: 2%;
+}
+nav p                                       /*paragraphes des filtres*/
+{
+    display: flex;
+    border: 1px solid #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+nav i                                       /*icones des filtres*/
+{
+    display:flex;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    color: #0065FC;
+}
+#filtres h2
+{
+    font-size: 18px;
+}
+#info                                       /*ligne information*/
+{
+    display: flex;
+    align-items: center;
+}
+#info p 
+{
+    padding-left: 0.5%;
+}
+#info i
+{
+    color:#0065FC;
+}
+
+
+
 
 /*Section 1*/
 
