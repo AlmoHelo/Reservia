@@ -322,13 +322,13 @@ p
     font-weight: bold;
     margin-left: 8%;
 }
-#img_petite
+#img_petite                                     /*images plus petites*/
 {
     width: 300px;
     height: 150px;
     border-radius: 8%;
 }
-#img_grd
+#img_grd                                        /*image plus grande*/
 {
     height:400px;
     width: 300px;
@@ -336,7 +336,7 @@ p
 }
 
 /*Footer*/
-footer
+footer                                              /*le tout*/
 {
     display: flex;
     justify-content: space-around;
@@ -346,7 +346,7 @@ footer
     margin-bottom: 3%;
     padding-bottom: 2%;
 }
-nav
+footer nav                                                 /*chaque partie*/
 {
     display: flex;
     flex-direction: column;
@@ -363,7 +363,7 @@ footer a
     text-decoration: none;
     color: black;
 }
-ul 
+ul                                      /*la liste*/
 {
     padding-left: 0%;
     margin-top: 0%;
