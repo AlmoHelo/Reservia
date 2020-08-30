@@ -99,12 +99,13 @@
                 <input type="submit" value="Afficher plus" id="afficher" />
             </section>
                 <div id="section_populaires">
-                    <h2>Les plus populaires</h2><i class="fas fa-chart-line"></i>
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line" id="fleche"></i>
                     <div class="pop">
                         <p>
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="img_pop"/>
                             <br><span class="noms">Hôtel Le soleil du matin</span>
-                            <br>Nuit à partir de <span class="price">128€</span>
+                            <br><span class="textepop"> Nuit à partir de <span class="price">128€</span></span>
                         </p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
@@ -112,7 +113,7 @@
                         <p>
                             <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="img_pop"/>
                             <br><span class="noms">Au coeur de l'eau Chambres d'hôtes</span>
-                            <br>Nuit à partir de <span class="price">71€</span>
+                            <br><span class="textepop">Nuit à partir de <span class="price">71€</span></span>
                         </p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="fas2"></i>
                     </div>
@@ -120,20 +121,36 @@
                         <p>
                             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="img_pop"/>
                             <br><span class="noms">Hôtel Tout bleu et Blanc</span>
-                            <br>Nuit à partir de <span class="price">68€</span>
+                            <br><span class="textepop">Nuit à partir de <span class="price">68€</span></span>
                         </p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="fas2"></i>
                     </div>
                 </div>
-            </div>
-        <section id="section_activités">
+        </div>
+        <section id="section_activites">
             <h2 id="ancre_activites">Activités à Marseille</h2>         <!--ancre activité-->
-                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" /> <p>Vieux Port</p> 
-                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" /> <p>Fort de Pomègues</p>
-                <br><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul" /> <p>Iles du Frioul</p>
-                <br><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" /> <p>Parc National des Calanques</p>
-                <br><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" /> <p>Notre-Dame-de-la-Garde</p>
-                <br><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" /><p>Parc Longchamp</p>
+                <div class="grande">
+                    <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" id="img_grd"/> <p>Vieux Port</p>
+                </div>
+                <div class="petite">
+                    <div class="box_petite">
+                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" id="img_petite"/> <p>Fort de Pomègues</p>
+                    </div>
+                    <div class="box_petite">
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul" id="img_petite"/> <p>Iles du Frioul</p>
+                    </div>
+                </div>
+                <div class="grande">
+                    <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" id="img_grd"/> <p>Parc National des Calanques</p>
+                </div>
+                <div class="petite">
+                    <div class="box_petite">
+                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" id="img_petite"/> <p>Notre-Dame-de-la-Garde</p>
+                    </div>
+                    <div class="box_petite">
+                        <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" id="img_petite"/><p>Parc Longchamp</p>
+                    </div>
+                </div>
         </section>
         <footer>
             <nav id="a_propos">
@@ -145,7 +162,7 @@
                 </ul>
             </nav>
             <nav id="hebergement">
-                <h3>Nos Hébergements</h3>
+                <h3>Nos hébergements</h3>
                 <ul>
                      <li><a href="charte">Charte qualité</a></li>
                      <li><a href="Soumettre">Soumettre votre hotel</a></li>
