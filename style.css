@@ -596,4 +596,131 @@ ul                                                  /*la liste*/
     padding-left: 0%;
     margin-top: 0%;
 }
+/*version mobile 320px*/
+@media screen and (max-device-width: 480px) 
+{
+    /*Header*/
+    #banniere
+    {
+        width: 374px;
+        height: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    #logo
+    {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-bottom: 35px;
+        margin-right: 0px;
+    }
+    #inscription
+    {
+        position: absolute;
+        top: 55px;
+        right: 0px;
+    }
+    .groupe 
+    {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .groupe:hover 
+    {
+        color: #0065FC;
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 15px;
+    }
+    /*titre principal*/
+    #titre
+    {
+        margin-left: 20px;
+    }
+    h1 
+    {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    #bouton
+    {
+        width: 50px;
+        border-radius: 10px;
+    }
+    /*filtres*/
+    #filtres
+    {
+        margin-left: 20px;
+        height: 210px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #filtres h2
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 374px;
+        height: 20px;
+    }
+    #filtres nav
+    {
+        margin-top: 0px;
+        width: 374px;
+        height: 175px;
+    }
+    #filtres ul
+    {
+        width: 370px;
+        height: 175px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #filtres li
+    {
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+    #filtres a 
+    {
+        padding-right:15px;
+    }
+    #filtres i
+    {
+        margin-right: 8px;
+    }
+    /*ligne information*/
+    #info
+    {
+        width: 360px;
+    }
+    #info i
+    {
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    #info p
+    {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*section partie haute*/
+    #partie_haute
+    {
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+}
 
