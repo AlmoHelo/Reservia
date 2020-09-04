@@ -706,21 +706,28 @@ ul                                                  /*la liste*/
         width: 300px;
         margin-top: 30px;
     }
-
-
-
-
-
-
-
-
-
-
     /*section partie haute*/
     #partie_haute
     {
         display: flex;
         flex-direction: column-reverse; 
+    }
+    #section_populaires
+    {
+        margin-left: -60px;
+        margin-top: -20px;
+        width: 370px;
+    }
+    #section_populaires h2
+    {
+        margin-left: 20px;
+        width: 330px;
+    }
+    .pop
+    {
+        margin-left: 20px;
+        width: 330px;
+        overflow: hidden;
     }
 }
 
