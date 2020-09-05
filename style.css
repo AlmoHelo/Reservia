@@ -962,6 +962,46 @@ ul                                                  /*la liste*/
         border-bottom: 1px solid #0065FC;
         padding-bottom: 20px;
     }
-    
+    #titre
+    {
+        max-width: 760px;
+        margin-left: 30px;
+    }
+    h1
+    {
+        font-size: 22px;
+    }
+    #titre p
+    {
+        font-size: 18px;
+    }
+    #localisation
+    {
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+        line-height: 70px;
+    }
+    #search
+    {
+        height: 70px;
+        width: 270px;
+    }
+    #bouton
+    {
+        height: 70px;
+        width: 160px;
+        padding-left: 30px;
+    }
+    #loupe
+    {
+        width: 30px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        background-color: #0065FC;
+        position: relative;
+        left: -150px;
+    }
 }
 
