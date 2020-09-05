@@ -16,10 +16,6 @@ a                                                                               
 {
     font-weight: bold;
 }
-.normal                                     /*texte pas en gras*/ 
-{
-    font-weight: normal;
-}
 /*Header*/
 #logo                                                                        /*taille et emplacement logo*/ 
 {
@@ -928,5 +924,44 @@ ul                                                  /*la liste*/
     {
         margin-top: 0px;
     }
+}
+@media screen and (max-width:1024px)
+{
+    /*header*/
+    #banniere
+    {
+        max-width: 760px;
+        max-height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    #logo
+    {
+        width: 200px;
+        height: 100px;
+        margin: 10px 300px 30px 30px;
+    }
+   #menu
+   {
+       width: 750px;
+       margin: 0px;
+       padding-bottom: 20px;
+       font-size: 20px;
+       justify-content: space-around;
+   }
+   #menu a 
+   {
+       margin: 0px;
+       padding-right:80px;
+       padding-left: 80px;
+   }
+    #menu a:hover
+    {
+        border-top: 0 !important;
+        border-bottom: 1px solid #0065FC;
+        padding-bottom: 20px;
+    }
+    
 }
 
