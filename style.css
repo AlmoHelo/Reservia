@@ -601,7 +601,7 @@ ul                                                  /*la liste*/
     margin-top: 0%;
 }
 /*version mobile 320px*/
-@media screen and (max-device-width: 480px) 
+@media only screen and (min-width: 320px) and (max-width:767px)
 {
     /*Header*/
     #banniere
@@ -925,7 +925,8 @@ ul                                                  /*la liste*/
         margin-top: 0px;
     }
 }
-@media screen and (max-width:1024px) {
+@media only screen and (min-width:760px) and (max-width: 991px)
+{
     /*header*/
     #banniere {
         max-width: 760px;
@@ -934,65 +935,65 @@ ul                                                  /*la liste*/
         flex-wrap: wrap;
         border-bottom: 3px solid #F2F2F2;
     }
-
-    #logo {
+    #logo 
+    {
         width: 200px;
         height: 100px;
         margin: 10px 300px 30px 30px;
     }
-
-    #menu {
+    #menu 
+    {
         width: 750px;
         margin: 0px;
         padding-bottom: 20px;
         font-size: 20px;
         justify-content: space-around;
     }
-
-        #menu a {
-            margin: 0px;
-            padding-right: 80px;
-            padding-left: 80px;
-        }
-
-            #menu a:hover {
-                border-top: 0 !important;
-                border-bottom: 1px solid #0065FC;
-                padding-bottom: 20px;
-            }
-
-    #titre {
+    #menu a 
+    {
+        margin: 0px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    #menu a:hover 
+    {
+        border-top: 0 !important;
+        border-bottom: 1px solid #0065FC;
+        padding-bottom: 20px;
+    }
+    #titre
+    {
         max-width: 760px;
         margin-left: 30px;
     }
-
-    h1 {
+    h1 
+    {
         font-size: 22px;
     }
-
-    #titre p {
+    #titre p 
+    {
         font-size: 18px;
     }
-
-    #localisation {
+    #localisation 
+    {
         width: 70px;
         height: 70px;
         font-size: 25px;
         line-height: 70px;
     }
-
-    #search {
+    #search 
+    {
         height: 70px;
         width: 270px;
     }
-
-    #bouton {
+    #bouton 
+    {
         height: 70px;
         width: 160px;
         padding-left: 30px;
     }
-
-    #loupe {
+    #loupe 
+    {
         width: 30px;
         height: 70px;
         line-height: 70px;
@@ -1085,13 +1086,16 @@ ul                                                  /*la liste*/
     }
     #section_populaires figcaption 
     {
-        width: 220px;
+        width: 240px;
         height: 80px;
     }
     #section_populaires #soleil, #section_populaires #hotes, #section_populaires #bleu_blanc
     {
         position: relative;
-        left: -5px;
+        left: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
     }
     #section_populaires #soleil
     {
@@ -1116,6 +1120,23 @@ ul                                                  /*la liste*/
     {
         width: 250px;
         top: -140px;
+    }
+    .nomspop
+    {
+        width: 250px;
+        margin-top: 5px;
+    }
+    .textepop
+    {
+        margin-bottom: 5px;
+    }
+    .nomspop, .textepop
+    {
+        font-size: 13px;
+    }
+    .nomspop, .textepop, .etoiles
+    {
+        margin-left: 5px;
     }
 }
 
