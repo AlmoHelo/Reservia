@@ -1042,5 +1042,80 @@ ul                                                  /*la liste*/
     {
         margin-left: 30px;
     }
+    #partie_haute                                               /*section populaires avant hébergements*/
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*section populaires*/
+    #section_populaires
+    {
+        min-width: 768px;
+        height: 320px;
+        margin-left: -60px;
+        border-radius: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #section_populaires h2
+    {
+        width: 760px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #fleche
+    {
+        font-size: 25px;
+    }
+    .pop 
+    {
+        width: 245px;
+        height: 200px;
+        margin: auto;
+        margin-top: 0px;
+    }
+    #section_populaires figure 
+    {
+        margin: 4px 4px 4px 4px;
+        overflow: hidden;                                                      /*hidden*/
+        border-radius: 9%;
+        width: 235px;
+        height: 190px;
+    }
+    #section_populaires figcaption 
+    {
+        width: 220px;
+        height: 80px;
+    }
+    #section_populaires #soleil, #section_populaires #hotes, #section_populaires #bleu_blanc
+    {
+        position: relative;
+        left: -5px;
+    }
+    #section_populaires #soleil
+    {
+        top: -55px;
+    }
+    #section_populaires #hotes
+    {
+        top: -75px;
+    }
+    .img_pop
+    {
+        width: 250px;
+        position: relative;
+        left: 0px;
+        top: -35px;
+    }
+    #section_populaires #bleu_blanc
+    {
+        top: -265px;
+    }
+    .img_pop2
+    {
+        width: 250px;
+        top: -140px;
+    }
 }
 
