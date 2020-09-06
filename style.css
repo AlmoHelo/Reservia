@@ -925,6 +925,7 @@ ul                                                  /*la liste*/
         margin-top: 0px;
     }
 }
+/*version tablette*/
 @media only screen and (min-width:760px) and (max-width: 991px)
 {
     /*header*/
@@ -932,7 +933,7 @@ ul                                                  /*la liste*/
         min-width: 760px;
         max-height: 200px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         border-bottom: 3px solid #F2F2F2;
     }
     #logo 
@@ -943,7 +944,7 @@ ul                                                  /*la liste*/
     }
     #menu 
     {
-        min-width: 760px;
+        max-width: 760px;
         margin: 0px;
         padding-bottom: 20px;
         font-size: 20px;
