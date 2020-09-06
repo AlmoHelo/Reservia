@@ -1180,5 +1180,15 @@ ul                                                  /*la liste*/
         margin-right: 50px;
         margin-left: 40px;
     }
+    /*footer*/
+    footer
+    {
+        max-width: 760px;
+    }
+    footer nav
+    {
+        margin-left: -10px;
+        margin-right: 0px;
+    }
 }
 
