@@ -128,7 +128,7 @@ form
 }
 #filtres h2 
 {
-        font-size: 18px;
+     font-size: 18px;
 }
 #filtres ul                                                          /*paragraphes des filtres*/ 
 {
@@ -925,76 +925,74 @@ ul                                                  /*la liste*/
         margin-top: 0px;
     }
 }
-@media screen and (max-width:1024px)
-{
+@media screen and (max-width:1024px) {
     /*header*/
-    #banniere
-    {
+    #banniere {
         max-width: 760px;
         max-height: 200px;
         display: flex;
         flex-wrap: wrap;
         border-bottom: 3px solid #F2F2F2;
     }
-    #logo
-    {
+
+    #logo {
         width: 200px;
         height: 100px;
         margin: 10px 300px 30px 30px;
     }
-   #menu
-   {
-       width: 750px;
-       margin: 0px;
-       padding-bottom: 20px;
-       font-size: 20px;
-       justify-content: space-around;
-   }
-   #menu a 
-   {
-       margin: 0px;
-       padding-right:80px;
-       padding-left: 80px;
-   }
-    #menu a:hover
-    {
-        border-top: 0 !important;
-        border-bottom: 1px solid #0065FC;
+
+    #menu {
+        width: 750px;
+        margin: 0px;
         padding-bottom: 20px;
+        font-size: 20px;
+        justify-content: space-around;
     }
-    #titre
-    {
+
+        #menu a {
+            margin: 0px;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+
+            #menu a:hover {
+                border-top: 0 !important;
+                border-bottom: 1px solid #0065FC;
+                padding-bottom: 20px;
+            }
+
+    #titre {
         max-width: 760px;
         margin-left: 30px;
     }
-    h1
-    {
+
+    h1 {
         font-size: 22px;
     }
-    #titre p
-    {
+
+    #titre p {
         font-size: 18px;
     }
-    #localisation
-    {
+
+    #localisation {
         width: 70px;
         height: 70px;
         font-size: 25px;
         line-height: 70px;
     }
-    #search
-    {
+
+    #search {
         height: 70px;
         width: 270px;
     }
-    #bouton
-    {
+
+    #bouton {
         height: 70px;
         width: 160px;
         padding-left: 30px;
     }
-    #loupe
-    {
+
+    #loupe {
         width: 30px;
         height: 70px;
         line-height: 70px;
@@ -1002,6 +1000,47 @@ ul                                                  /*la liste*/
         background-color: #0065FC;
         position: relative;
         left: -150px;
+    }
+    #filtres 
+    {
+        max-width: 750px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    #filtres h2
+    {
+        max-width: 300px;
+        margin-left: 40px;
+        font-size: 22px;
+    }
+    #filtres ul
+    {
+        width: 750px;
+        margin-left: 0px;
+        justify-content: space-around;
+    }
+    #filtres li
+    {
+        font-size: 15px;
+        margin: auto;
+    }
+    #filtres i
+    {
+        margin-left: -40px;
+        margin-right: 0px;
+    }
+    #info
+    {
+        margin-top: 10px;
+    }
+    #info p
+    {
+        font-size: 15px;
+    }
+    #info i
+    {
+        margin-left: 30px;
     }
 }
 
