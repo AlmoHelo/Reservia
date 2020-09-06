@@ -929,7 +929,7 @@ ul                                                  /*la liste*/
 {
     /*header*/
     #banniere {
-        max-width: 760px;
+        min-width: 760px;
         max-height: 200px;
         display: flex;
         flex-wrap: wrap;
@@ -943,7 +943,7 @@ ul                                                  /*la liste*/
     }
     #menu 
     {
-        width: 750px;
+        min-width: 760px;
         margin: 0px;
         padding-bottom: 20px;
         font-size: 20px;
@@ -963,7 +963,7 @@ ul                                                  /*la liste*/
     }
     #titre
     {
-        max-width: 760px;
+        min-width: 760px;
         margin-left: 30px;
     }
     h1 
@@ -976,7 +976,7 @@ ul                                                  /*la liste*/
     }
     #localisation 
     {
-        width: 70px;
+        min-width: 70px;
         height: 70px;
         font-size: 25px;
         line-height: 70px;
@@ -984,18 +984,18 @@ ul                                                  /*la liste*/
     #search 
     {
         height: 70px;
-        width: 270px;
+        min-width: 270px;
     }
     #bouton 
     {
-        height: 70px;
-        width: 160px;
+        min-height: 70px;
+        min-width: 160px;
         padding-left: 30px;
     }
     #loupe 
     {
-        width: 30px;
-        height: 70px;
+        min-width: 30px;
+        max-height: 70px;
         line-height: 70px;
         font-size: 20px;
         background-color: #0065FC;
@@ -1137,6 +1137,30 @@ ul                                                  /*la liste*/
     .nomspop, .textepop, .etoiles
     {
         margin-left: 5px;
+    }
+    /*sectione hébergements*/
+    #section_one 
+    {
+        min-width: 768px;
+        margin-left: -60px;
+        border-radius: 0px;
+        background-color: white;
+    }
+    #groupe_hebergement
+    {
+        margin-left: 0px;
+    }
+    .hebergement 
+    {
+        width: 245px;
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #afficher
+    {
+        background-color: white;
     }
 }
 
