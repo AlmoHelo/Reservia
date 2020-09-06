@@ -1162,5 +1162,23 @@ ul                                                  /*la liste*/
     {
         background-color: white;
     }
+    /*activités*/
+    #section_activites
+    {
+        max-width: 770px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section_activites h2
+    {
+        margin-left: 40px;
+    }
+    .grande
+    {
+        margin-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 40px;
+    }
 }
 
