@@ -12,7 +12,7 @@ a                                                                               
     color: black;
     text-decoration: none;
 }
-.titre, .price, .nomspop, #section_activites p, footer h3                         /*tout le texte en gras*/
+.titre, .price, .nomspop, #section_activites p, footer h3, #inscription, #search, #bouton, #filtres, #afficher                         
 {
     font-weight: bold;
 }
@@ -54,7 +54,6 @@ header a                                    /*écriture des liens du menu*/
 #inscription 
 {
     color: #0065FC;
-    font-weight: bolder;
 }
 #titre
 {
@@ -62,8 +61,7 @@ header a                                    /*écriture des liens du menu*/
 }
 h1                                          /*titre principal*/
 {
-    font-size: 26px;                                                                                                                                        
-    font-weight: bold;
+    font-size: 26px;     
 }
 #titre p                                    
 {
@@ -97,8 +95,7 @@ form
     height: 50px;
     padding-left: 15px;
     border: 1px solid #F2F2F2;
-    font-size: 20px;                                                                                                                                                
-    font-weight: bold;
+    font-size: 20px;     
 }
 #bouton                                                     /* modification du bouton rechercher*/ 
 {    
@@ -108,8 +105,7 @@ form
     border-radius: 0 20px 20px 0;
     background-color: #0065FC;
     color: white;
-    font-size: 18px;     
-    font-weight: bold;                                                                                                                                      
+    font-size: 18px;                                                                                                                                       
 }
 #loupe                                                      /*bouton recherche caché pour version mobile*/
 {
@@ -123,7 +119,6 @@ form
     vertical-align: middle;
     margin-top: 30px;
     margin-left: 50px;
-    font-weight: bold;
 }
 #filtres h2 
 {
@@ -190,7 +185,7 @@ form
     color: #0065FC;
     font-size: 10px;
 }
-#fas2
+.fas2
 {
     color:#F2F2F2;
 }
@@ -324,7 +319,6 @@ form
     margin-bottom: 20px;
     border: none;
     background-color: #F2F2F2;
-    font-weight: bold;
     font-size: 20px;
     text-align: left;
 }
