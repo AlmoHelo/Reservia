@@ -109,7 +109,7 @@ form
 }
 #loupe                                                      /*bouton recherche caché pour version mobile*/
 {
-    display:none;
+    color:white;
 }
 #filtres                                                                 /*filtres*/ 
 {
